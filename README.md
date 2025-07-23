@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Carbon Next.js Application
 
-## Getting Started
+A modern web application built with Next.js and IBM Carbon Design System, following the official IBM Carbon Design documentation tutorial.
 
-First, run the development server:
+## 🚀 Overview
 
+This project demonstrates the integration of IBM's Carbon Design System with Next.js, creating a professional and accessible web application. The implementation follows the step-by-step tutorial from the official IBM Carbon Design documentation.
+
+## 📋 Project Status
+
+### ✅ Completed Steps
+- **Step 1**: Project setup and Carbon Design System integration
+  - Next.js application scaffolding
+  - Carbon React components installation
+  - SCSS/Sass configuration
+  - Basic header component implementation
+
+### 🔄 In Progress
+- **Step 2-5**: Advanced component implementation and page development
+
+## 🛠 Tech Stack
+
+- **Framework**: Next.js 15.4.3
+- **UI Library**: IBM Carbon Design System (@carbon/react 1.33.0)
+- **Icons**: @carbon/icons-react 11.63.0
+- **Styling**: Sass 1.63.6
+- **React**: 19.1.0
+
+## 📁 Project Structure
+
+```
+next-carbon/
+├── src/
+│   └── app/
+│       ├── components/
+│       │   ├── Content.jsx
+│       │   └── Header/
+│       │       ├── page.jsx
+│       │       └── _carbon-header.scss
+│       ├── home/
+│       │   ├── page.jsx
+│       │   └── _landing-page.scss
+│       ├── repos/
+│       │   ├── page.jsx
+│       │   └── _repo-page.scss
+│       ├── layout.js
+│       ├── page.js
+│       ├── providers.js
+│       └── globals.scss
+├── public/
+└── package.json
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/hemchdev/Carbon-NextJS.git
+cd next-carbon
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Start the development server:
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🎨 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Current Implementation
+- **Responsive Header**: Carbon Design System header with navigation
+- **Component Architecture**: Modular component structure
+- **SCSS Integration**: Custom styling with Carbon tokens
+- **Icon Integration**: Carbon icon library implementation
 
-## Learn More
+### Planned Features (Steps 2-5)
+- Landing page with Carbon components
+- Repository listing page
+- Data tables and interactive components
+- Advanced navigation and routing
+- Responsive design patterns
 
-To learn more about Next.js, take a look at the following resources:
+## 📚 Carbon Design System Integration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project follows the official IBM Carbon Design System tutorial, implementing:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Carbon React components
+- Carbon design tokens and theming
+- Carbon icons and iconography
+- Accessibility best practices
+- Responsive design patterns
 
-## Deploy on Vercel
+## 🔧 Available Scripts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `npm run dev` - Start development server
+- `npm run build` - Build production application
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📖 Documentation References
+
+- [IBM Carbon Design System](https://carbondesignsystem.com/)
+- [Carbon React Components](https://react.carbondesignsystem.com/)
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Carbon Design System Tutorial](https://carbondesignsystem.com/tutorial/react/overview)
+
+## 🤝 Contributing
+
+This project follows the IBM Carbon Design System tutorial structure. Contributions should align with Carbon Design principles and Next.js best practices.
+
+## 📄 License
+
+This project is private and follows the tutorial implementation guidelines from IBM Carbon Design System.
+
+## 🔗 Useful Links
+
+- [Carbon Design System](https://carbondesignsystem.com/)
+- [Carbon Components React](https://github.com/carbon-design-system/carbon)
+- [Next.js](https://nextjs.org/)
+- [IBM Design Language](https://www.ibm.com/design/language/)
