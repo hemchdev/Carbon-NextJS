@@ -69,7 +69,7 @@ This project demonstrates the integration of IBM's Carbon Design System with Nex
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/hemchdev/Carbon-NextJS.git
    cd next-carbon
    ```
 
