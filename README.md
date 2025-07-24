@@ -1,4 +1,4 @@
-# Next.js Carbon Design System Project
+# Next.js Carbon Design System - Project Based Learning
 
 A modern web application built with **Next.js 15** and **IBM Carbon Design System**, following the official IBM Carbon tutorial implementation step by step.
 
