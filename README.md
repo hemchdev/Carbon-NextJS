@@ -124,13 +124,6 @@ This project follows the official IBM Carbon Design System tutorial, implementin
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Carbon Design System Tutorial](https://carbondesignsystem.com/tutorial/react/overview)
 
-## 🤝 Contributing
-
-This project follows the IBM Carbon Design System tutorial structure. Contributions should align with Carbon Design principles and Next.js best practices.
-
-## 📄 License
-
-This project is private and follows the tutorial implementation guidelines from IBM Carbon Design System.
 
 ## 🔗 Useful Links
 
