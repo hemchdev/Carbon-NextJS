@@ -1,4 +1,4 @@
-# Next.js Carbon Design System Project
+# Next.js Carbon Design System - Project Based Learning
 
 A modern web application built with **Next.js 15** and **IBM Carbon Design System**, following the official IBM Carbon tutorial implementation step by step.
 
@@ -69,7 +69,7 @@ This project demonstrates the integration of IBM's Carbon Design System with Nex
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/hemchdev/Carbon-NextJS.git
    cd next-carbon
    ```
 
