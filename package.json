@@ -11,6 +11,7 @@
   "dependencies": {
     "@carbon/icons-react": "^11.63.0",
     "@carbon/react": "1.33.0",
+    "@octokit/core": "4.2.0",
     "next": "14.2.30",
     "react": "19.0.0",
     "react-dom": "19.0.0",

@@ -1,7 +1,7 @@
 'use client';
 
 import Content from './components/Content';
-import CarbonHeader from './components/Header/page';
+import CarbonHeader from './components/pageheader/page';
 import { Theme } from '@carbon/react';
  
 export function Providers({ children }) {
