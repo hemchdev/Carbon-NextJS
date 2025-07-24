@@ -2,8 +2,8 @@ import "./globals.scss";
 import { Providers }  from "./providers";
 
 export const metadata = {
-  title: "Carbon + Next13",
-  description: "IBM Carbon with Next.js 13",
+  title: "Carbon + Next14",
+  description: "IBM Carbon with Next.js 14",
 };
 
 export default function RootLayout({ children }) {
