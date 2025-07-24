@@ -1,133 +1,144 @@
-# Carbon Next.js Application
+# Next.js Carbon Design System Project
 
-A modern web application built with Next.js and IBM Carbon Design System, following the official IBM Carbon Design documentation tutorial.
+A modern web application built with **Next.js 15** and **IBM Carbon Design System**, following the official IBM Carbon tutorial implementation step by step.
 
-## 🚀 Overview
+## Project Overview
 
-This project demonstrates the integration of IBM's Carbon Design System with Next.js, creating a professional and accessible web application. The implementation follows the step-by-step tutorial from the official IBM Carbon Design documentation.
+This project demonstrates the integration of IBM's Carbon Design System with Next.js, creating a responsive and accessible web application. The implementation follows the official [Carbon Design System React Tutorial](https://carbondesignsystem.com/tutorial/react/overview) documentation and best practices.
 
-## 📋 Project Status
+## Implementation Progress
 
-### ✅ Completed Steps
-- **Step 1**: Project setup and Carbon Design System integration
-  - Next.js application scaffolding
-  - Carbon React components installation
-  - SCSS/Sass configuration
-  - Basic header component implementation
+### Step 1: Installing Carbon - COMPLETED
+- Next.js 15 project initialization with Create Next App
+- Carbon Design System (@carbon/react) installation
+- Sass configuration and Carbon styles import
+- UI Shell implementation with Header components
+- Navigation setup with Next.js routing
+- Carbon Button component integration
+- Dark theme header (g100) configuration
+- Basic project structure and global styles
 
-### 🔄 In Progress
-- **Step 2-5**: Advanced component implementation and page development
+### Step 2: Building Pages - COMPLETED
+- Landing page grid implementation with Carbon Grid system
+- Repository page creation with DataTable structure
+- Carbon components integration:
+  - Breadcrumb navigation
+  - Tabs component with multiple panels
+  - Grid and Column responsive layout
+  - Static DataTable with headers and rows
+- SCSS styling with Carbon design tokens
+- Responsive design using Carbon breakpoints
+- Carbon spacing tokens implementation (`$spacing-05`, etc.)
+- Type styling with Carbon typography tokens
+- Page navigation and routing between home and repos
 
-## 🛠 Tech Stack
+### Step 3: Using APIs - NEXT STEP
+- GitHub API integration with Octokit
+- Dynamic data fetching for repository information
+- Loading states with DataTableSkeleton
+- Pagination implementation
+- Error handling and state management
 
-- **Framework**: Next.js 15.4.3
-- **UI Library**: IBM Carbon Design System (@carbon/react 1.33.0)
-- **Icons**: @carbon/icons-react 11.63.0
-- **Styling**: Sass 1.63.6
-- **React**: 19.1.0
+### Step 4: Creating Components - PLANNED
+- Custom InfoSection and InfoCard components
+- Carbon pictograms integration
+- Responsive component design
+- Accessibility considerations
 
-## 📁 Project Structure
+### Step 5: Deploying the Project - PLANNED
+- Production build optimization
+- Deployment configuration
+- Performance optimization
 
-```
-next-carbon/
-├── src/
-│   └── app/
-│       ├── components/
-│       │   ├── Content.jsx
-│       │   └── Header/
-│       │       ├── page.jsx
-│       │       └── _carbon-header.scss
-│       ├── home/
-│       │   ├── page.jsx
-│       │   └── _landing-page.scss
-│       ├── repos/
-│       │   ├── page.jsx
-│       │   └── _repo-page.scss
-│       ├── layout.js
-│       ├── page.js
-│       ├── providers.js
-│       └── globals.scss
-├── public/
-└── package.json
-```
+## Tech Stack
 
-## 🚀 Getting Started
+- **Framework**: Next.js 15.1.3
+- **UI Library**: IBM Carbon Design System v11 (@carbon/react)
+- **Styling**: SCSS with Carbon Design Tokens
+- **Language**: TypeScript/JavaScript
+- **Package Manager**: npm
+- **Icons**: @carbon/icons-react
+
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+ 
-- npm, yarn, pnpm, or bun
+- npm or yarn
 
 ### Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/hemchdev/Carbon-NextJS.git
-cd next-carbon
-```
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd next-carbon
+   ```
 
-2. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-3. Start the development server:
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+4. **Open in browser**
+   ```
+   http://localhost:3000
+   ```
 
-## 🎨 Features
-
-### Current Implementation
-- **Responsive Header**: Carbon Design System header with navigation
-- **Component Architecture**: Modular component structure
-- **SCSS Integration**: Custom styling with Carbon tokens
-- **Icon Integration**: Carbon icon library implementation
-
-### Planned Features (Steps 2-5)
-- Landing page with Carbon components
-- Repository listing page
-- Data tables and interactive components
-- Advanced navigation and routing
-- Responsive design patterns
-
-## 📚 Carbon Design System Integration
-
-This project follows the official IBM Carbon Design System tutorial, implementing:
-
-- Carbon React components
-- Carbon design tokens and theming
-- Carbon icons and iconography
-- Accessibility best practices
-- Responsive design patterns
-
-## 🔧 Available Scripts
+## Available Scripts
 
 - `npm run dev` - Start development server
-- `npm run build` - Build production application
+- `npm run build` - Build for production
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
 
-## 📖 Documentation References
+## Current Features (Step 2 Complete)
+
+### Implemented Components
+- **UI Shell Header**: Complete navigation with Carbon HeaderContainer, HeaderName, HeaderNavigation
+- **Landing Page Grid**: Responsive 16-column CSS Grid layout
+- **Breadcrumb Navigation**: Accessible breadcrumb with proper ARIA labels
+- **Tabs Component**: Multi-panel tabs with About, Design, Develop sections
+- **Repository Page**: DataTable structure ready for API integration
+- **Responsive Design**: Mobile-first approach with Carbon breakpoints (sm, md, lg)
+
+### Design Implementation
+- **Carbon Design Tokens**: Proper spacing (`$spacing-05`, `$spacing-07`), typography (`productive-heading-05`)
+- **Theme Integration**: Dark header theme (g100) with light content
+- **Grid System**: 16-column CSS Grid with proper responsive behavior
+- **Color Palette**: Carbon color tokens (`$layer-01`, `$gray-20`)
+
+## Carbon Design System Integration
+
+This project utilizes:
+- **@carbon/react**: Pre-built accessible React components
+- **Carbon Design Tokens**: Consistent spacing, colors, and typography
+- **Carbon Grid System**: Responsive 16-column CSS Grid
+- **Carbon SCSS**: Modular styling with mixins and functions
+- **Carbon Icons**: Icon library for UI elements
+
+## Tutorial Progress
+
+Following the official Carbon React Tutorial:
+- **Step 1**: Installing Carbon - Project setup, Carbon installation, UI Shell
+- **Step 2**: Building pages - Grid implementation, components integration, responsive design
+- **Step 3**: Using APIs - GitHub API integration (Next)
+- **Step 4**: Creating components - Custom components with pictograms
+- **Step 5**: Deploying the project - Production optimization
+
+## Useful Links
 
 - [IBM Carbon Design System](https://carbondesignsystem.com/)
-- [Carbon React Components](https://react.carbondesignsystem.com/)
+- [Carbon React Tutorial](https://carbondesignsystem.com/tutorial/react/overview)
+- [Carbon Components React](https://react.carbondesignsystem.com/)
+- [Carbon Design Tokens](https://carbondesignsystem.com/elements/color/tokens)
 - [Next.js Documentation](https://nextjs.org/docs)
-- [Carbon Design System Tutorial](https://carbondesignsystem.com/tutorial/react/overview)
 
+---
 
-## 🔗 Useful Links
+**Note**: This project follows the official [IBM Carbon Design System React Tutorial](https://carbondesignsystem.com/tutorial/react/overview). Each step builds upon the previous implementation, ensuring best practices and design consistency according to IBM's design guidelines.
 
-- [Carbon Design System](https://carbondesignsystem.com/)
-- [Carbon Components React](https://github.com/carbon-design-system/carbon)
-- [Next.js](https://nextjs.org/)
-- [IBM Design Language](https://www.ibm.com/design/language/)
+**Current Status**: Ready to proceed with Step 3 - API integration and dynamic data fetching.
