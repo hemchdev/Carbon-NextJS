@@ -32,14 +32,14 @@ This project demonstrates the integration of IBM's Carbon Design System with Nex
 - Type styling with Carbon typography tokens
 - Page navigation and routing between home and repos
 
-### Step 3: Using APIs - NEXT STEP
+### Step 3: Using APIs - COMPLETED
 - GitHub API integration with Octokit
 - Dynamic data fetching for repository information
 - Loading states with DataTableSkeleton
 - Pagination implementation
 - Error handling and state management
 
-### Step 4: Creating Components - PLANNED
+### Step 4: Creating Components - NEXT STEP
 - Custom InfoSection and InfoCard components
 - Carbon pictograms integration
 - Responsive component design
