@@ -45,10 +45,8 @@ This project demonstrates the integration of IBM's Carbon Design System with Nex
 - Responsive component design
 - Accessibility considerations
 
-### Step 5: Deploying the Project - NEXT STEP
+### Step 5: Deploying the Project - COMPLETED
 - Production build optimization
-- Deployment configuration
-- Performance optimization
 
 ## Tech Stack
 
