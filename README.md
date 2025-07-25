@@ -39,13 +39,13 @@ This project demonstrates the integration of IBM's Carbon Design System with Nex
 - Pagination implementation
 - Error handling and state management
 
-### Step 4: Creating Components - NEXT STEP
+### Step 4: Creating Components - COMPLETED
 - Custom InfoSection and InfoCard components
 - Carbon pictograms integration
 - Responsive component design
 - Accessibility considerations
 
-### Step 5: Deploying the Project - PLANNED
+### Step 5: Deploying the Project - NEXT STEP
 - Production build optimization
 - Deployment configuration
 - Performance optimization
