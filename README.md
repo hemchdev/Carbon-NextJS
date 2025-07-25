@@ -93,7 +93,7 @@ This project demonstrates the integration of IBM's Carbon Design System with Nex
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
 
-## Current Features (Step 2 Complete)
+## Features 
 
 ### Implemented Components
 - **UI Shell Header**: Complete navigation with Carbon HeaderContainer, HeaderName, HeaderNavigation
