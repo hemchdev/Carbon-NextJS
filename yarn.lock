@@ -64,6 +64,15 @@
   dependencies:
     "@ibm/telemetry-js" "^1.5.0"
 
+"@carbon/pictograms-react@^11.82.0":
+  version "11.82.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.82.0.tgz#2c0924d37f40dace90ec15834204c6df4aa9c991"
+  integrity sha512-7m075I5I+RsljMescKCkjeJg6w+6S38OTVxbtIP3gf2SIWTg4OtahnxUd7Piq9HTTHJOWANxdkPOZ1Rq5kETKQ==
+  dependencies:
+    "@carbon/icon-helpers" "^10.62.0"
+    "@ibm/telemetry-js" "^1.5.0"
+    prop-types "^15.8.1"
+
 "@carbon/react@1.33.0":
   version "1.33.0"
   resolved "https://registry.yarnpkg.com/@carbon/react/-/react-1.33.0.tgz#a6d781f94a42f159301cadfbba2b35d5cab16d3d"
@@ -2111,7 +2120,7 @@ lodash.throttle@^4.1.1:
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
   integrity sha512-wIkUCfVKpVsWo3JSZlc+8MB5it+2AN5W8J7YVMST30UrvcQNZ1Okbj+rbVniijTWE6FGYy4XJq/rHkas8qJMLQ==
 
-loose-envify@^1.0.0, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -2393,12 +2402,13 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-react-dom@19.0.0:
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.0.0.tgz#43446f1f01c65a4cd7f7588083e686a6726cfb57"
-  integrity sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==
+react-dom@18.0.0:
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.0.0.tgz#26b88534f8f1dbb80853e1eabe752f24100d8023"
+  integrity sha512-XqX7uzmFo0pUceWFCt7Gff6IyIMzFUn7QMZrbrQfGxtaxXZIcGQzoNpRLE3fQLnS4XzLLPMZX2T9TRcSrasicw==
   dependencies:
-    scheduler "^0.25.0"
+    loose-envify "^1.1.0"
+    scheduler "^0.21.0"
 
 react-is@^16.13.1:
   version "16.13.1"
@@ -2410,10 +2420,12 @@ react-is@^18.2.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.3.1.tgz#e83557dc12eae63a99e003a46388b1dcbb44db7e"
   integrity sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==
 
-react@19.0.0:
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-19.0.0.tgz#6e1969251b9f108870aa4bff37a0ce9ddfaaabdd"
-  integrity sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==
+react@18.0.0:
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-18.0.0.tgz#b468736d1f4a5891f38585ba8e8fb29f91c3cb96"
+  integrity sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A==
+  dependencies:
+    loose-envify "^1.1.0"
 
 readdirp@~3.6.0:
   version "3.6.0"
@@ -2530,10 +2542,12 @@ sass@1.63.6:
     immutable "^4.0.0"
     source-map-js ">=0.6.2 <2.0.0"
 
-scheduler@^0.25.0:
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.25.0.tgz#336cd9768e8cceebf52d3c80e3dcf5de23e7e015"
-  integrity sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==
+scheduler@^0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.21.0.tgz#6fd2532ff5a6d877b6edb12f00d8ab7e8f308820"
+  integrity sha512-1r87x5fz9MXqswA2ERLo0EbOAU74DpIUO090gIasYTqlVoJeMcl+Z1Rg7WHz+qtPujhS/hGIt9kxZOYBV3faRQ==
+  dependencies:
+    loose-envify "^1.1.0"
 
 semver@^6.3.1:
   version "6.3.1"

@@ -3,6 +3,7 @@
 @use './home/landing-page';
 @use './repos/repo-page';
 @use '@carbon/react/scss/breakpoint' as *;
+@use '/src/app/components/Info/info';
 
 @media (min-width: 42rem) {
   .cds--grid--no-gutter {
