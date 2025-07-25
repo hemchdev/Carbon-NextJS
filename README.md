@@ -138,5 +138,3 @@ Following the official Carbon React Tutorial:
 ---
 
 **Note**: This project follows the official [IBM Carbon Design System React Tutorial](https://carbondesignsystem.com/tutorial/react/overview). Each step builds upon the previous implementation, ensuring best practices and design consistency according to IBM's design guidelines.
-
-**Current Status**: Ready to proceed with Step 3 - API integration and dynamic data fetching.
